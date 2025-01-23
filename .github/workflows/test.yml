@@ -7,9 +7,9 @@ jobs:
       - name: Get the Code
         uses: actions/checkout@v3
       - name: Install Python
-        uses: setup-python@v5
+        uses: actions/setup-python@v5
         with:
-          pythion-version:'3.13'
+          pythion-version:'3.12'
       - name: Install a Python Package
         run:  pip install streamlit
       - name: Run the streamlit application
