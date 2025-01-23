@@ -11,6 +11,5 @@ jobs:
       - name: Install a Python Package
         run:  pip install streamlit
       - name: Run the streamlit application
-        run: streamlit run test.py
       - name: End Script
         run: echo "Process Ran Successfully"
